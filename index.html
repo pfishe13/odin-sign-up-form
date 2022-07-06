@@ -12,38 +12,42 @@
 
     </div>
     <div class="right-container">
-        <form id="sign-up-form" action="">
-
-            <div class="fname">
-                <label for="first-name">First Name</label>
-                <input type="text" id="first-name">
+            <div class="tagline">
+                <h3>This is not a real online service! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum odio maiores nesciunt quasi. Delectus.</h3>
+                <h2>Sign up <em>now</em> to get started.</h2>
             </div>
-
-            <div class="lname">
-                <label for="last-name">Last Name</label>
-                <input type="text" id="last-name">
+            <form id="sign-up-form" action="#" method="get">
+                <div class="fname">
+                    <label for="first-name">First Name *</label>
+                    <input type="text" id="first-name" name="fname" required>
+                </div>
+                <div class="lname">
+                    <label for="last-name">Last Name *</label>
+                    <input type="text" id="last-name" name="lname" required>
+                </div>
+                <div class="email">
+                    <label for="user-email">Email *</label>
+                    <input type="email" id="user-email" name="email" required>
+                </div>
+                <div class="phone">
+                    <label for="user-phone">Phone</label>
+                    <input type="tel" id="user-phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="12" required>
+                </div>
+                <div class="pass1">
+                    <label for="user-pass1">Password <small>(8 characters minimum)</small> *</label>
+                    <input type="password" id="user-pass1" name="password" minlength="8" required>
+                </div>
+                <div class="pass2">
+                    <label for="user-pass2">Confirm Password *</label>
+                    <input type="password" id="user-pass2" name="password" minlength="8" required>
+                </div>
+                <div class="btn">
+                    <button type="submit">Sign-Up</button>
+                </div>
+            </form>
+            <div class="underneath">
+                <p>Already have an account? <a href="#">Log In</a></p>
             </div>
-
-            <div class="email">
-                <label for="user-email">Email</label>
-                <input type="email" id="user-email" name="email">
-            </div>
-
-            <div class="phone">
-                <label for="user-phone">Phone</label>
-                <input type="tel" id="user-phone">
-            </div>
-
-            <div class="pass1">
-                <label for="user-pass1">Password</label>
-                <input type="password" id="user-pass1" name="password">
-            </div>
-
-            <div class="pass2">
-                <label for="user-pass2">Confirm Password</label>
-                <input type="password" id="user-pass2" name="password">
-            </div>
-        </form>
     </div>
 </body>
 </html>
