@@ -66,6 +66,9 @@ label {
   background-repeat: no-repeat;
   background-size: cover;
   width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .right-container {
