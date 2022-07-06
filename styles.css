@@ -66,9 +66,16 @@ label {
   background-repeat: no-repeat;
   background-size: cover;
   width: 40%;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.left-container > p {
+  position: fixed;
+  bottom: 0;
+  color: white;
 }
 
 .right-container {
