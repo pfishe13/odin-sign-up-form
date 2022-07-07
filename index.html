@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-Up</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="/index.js"></script>
 </head>
 <body>
     <div class="left-container">
@@ -37,11 +38,12 @@
                 </div>
                 <div class="pass1">
                     <label for="user-pass1">Password <small>(8 characters minimum)</small> *</label>
-                    <input type="password" id="user-pass1" name="password" minlength="8" required>
+                    <input type="password" id="user-pass1" name="password" minlength="8" onkeyup="comparePass()" required>
                 </div>
-                <div class="pass2">
+                <div id="pass2">
                     <label for="user-pass2">Confirm Password *</label>
-                    <input type="password" id="user-pass2" name="password" minlength="8" required>
+                    <input type="password" id="user-pass2" name="password" minlength="8" onkeyup="comparePass()" required>
+                    <span></span>
                 </div>
                 <div class="btn">
                     <button type="submit">Sign-Up</button>
