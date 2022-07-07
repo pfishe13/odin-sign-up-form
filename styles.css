@@ -19,11 +19,11 @@ label {
 }
 
 h3 {
-  font-size: 2em;
+  font-size: 1.5rem;
 }
 
 h2 {
-  font-size: 3em;
+  font-size: 2.3em;
 }
 
 body > * {
@@ -36,7 +36,7 @@ select,
 progress,
 meter {
   display: block;
-  font-size: 1.2em;
+  font-size: 1em;
   margin: 0;
   box-sizing: border-box;
   width: 80%;
@@ -47,7 +47,7 @@ input {
   border: 1px solid lightgray;
   padding: 5px;
   border-radius: 3px;
-  height: 2.5em;
+  height: 2.3em;
 }
 
 input:focus {
@@ -106,7 +106,7 @@ label {
 }
 
 .underneath {
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: bold;
 }
 
